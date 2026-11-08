@@ -5,6 +5,10 @@ uncompressed LAS (`.las`) files. It can convert many files in one run (batch).
 
 Free tool by AgriMetSoft.
 
+## Screenshot
+
+![LAZ to LAS batch converter with the results table](screenshot.jpg)
+
 ## What it does
 
 - Select one or more `.laz` files.
@@ -20,9 +24,10 @@ It reads and writes LiDAR files using laszip4j.
 ## How to use
 
 1. Open the app.
-2. Select one or more `.laz` files.
-3. Choose an output folder.
-4. Click **Convert**. Each file is saved as `<name>.las` in that folder.
+2. Click **Select LAZ Files** and choose one or more `.laz` files.
+3. Click **Select LAS Folder** and choose where to save the `.las` files.
+4. Click **Convert LAZ Files**. Each file is saved as `<name>.las` in that
+   folder.
 
 ## Build from source
 
